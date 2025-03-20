@@ -46,14 +46,89 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="frmChuong2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frmChuong2.Designer.cs">
+      <DependentUpon>frmChuong2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChuong1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChuong1.Designer.cs">
+      <DependentUpon>frmChuong1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChuong3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChuong3.Designer.cs">
+      <DependentUpon>frmChuong3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChuong4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChuong4.Designer.cs">
+      <DependentUpon>frmChuong4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChuong5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChuong5.Designer.cs">
+      <DependentUpon>frmChuong5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChuong6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChuong6.Designer.cs">
+      <DependentUpon>frmChuong6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChuong7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChuong7.Designer.cs">
+      <DependentUpon>frmChuong7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChuong8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChuong8.Designer.cs">
+      <DependentUpon>frmChuong8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTestWindowsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTestWindowsForm.Designer.cs">
+      <DependentUpon>frmTestWindowsForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmChuong1.resx">
+      <DependentUpon>frmChuong1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChuong2.resx">
+      <DependentUpon>frmChuong2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChuong3.resx">
+      <DependentUpon>frmChuong3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChuong4.resx">
+      <DependentUpon>frmChuong4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChuong5.resx">
+      <DependentUpon>frmChuong5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChuong6.resx">
+      <DependentUpon>frmChuong6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChuong7.resx">
+      <DependentUpon>frmChuong7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChuong8.resx">
+      <DependentUpon>frmChuong8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTestWindowsForm.resx">
+      <DependentUpon>frmTestWindowsForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
