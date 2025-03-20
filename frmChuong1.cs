@@ -34,6 +34,7 @@ namespace TestWindowsForm_VietNam
 
         private void frmChuong1_Load(object sender, EventArgs e)
         {
+            MessageBox.show("Hello");
             rbtncau1.Checked = true;
             lblCauhoi.Text = "Câu 1: Namespace nào sau đây chứa các lớp cho thao tác Input và Output? ";
             rbtnA.Text = "A. System. Collections";
