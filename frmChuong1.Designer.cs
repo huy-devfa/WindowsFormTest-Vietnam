@@ -118,7 +118,7 @@
             this.btnNopBai.TabIndex = 1;
             this.btnNopBai.Text = "Nộp bài!";
             this.btnNopBai.UseVisualStyleBackColor = true;
-            this.btnNopBai.Click += new System.EventHandler(this.btnChonCau_Click);
+            this.btnNopBai.Click += new System.EventHandler(this.btnNopBai_Click);
             // 
             // tctrlChuong1
             // 

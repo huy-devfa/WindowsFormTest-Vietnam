@@ -27,11 +27,6 @@ namespace TestWindowsForm_VietNam
 
         }
 
-        private void btnChonCau_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void frmChuong1_Load(object sender, EventArgs e)
         {
             MessageBox.Show("Hello");
@@ -43,7 +38,7 @@ namespace TestWindowsForm_VietNam
             rbtnD.Text = "D. System. Threading";
 
         }
-        int i = 0;
+        int socaudalam = 0;
         string cautraloicau1 = "";
         string cautraloicau2 = "";
         string cautraloicau3 = "";
@@ -249,6 +244,9 @@ namespace TestWindowsForm_VietNam
         string cautraloidungcau99 = "";
         string cautraloidungcau100 = "";
 
+
+
+        int socau = 0;
         private void btnGui_Click(object sender, EventArgs e)
         {
             if (rbtncau1.Checked == true)
@@ -280,7 +278,7 @@ namespace TestWindowsForm_VietNam
                 rbtnB.Checked = false;
                 rbtnC.Checked = false;
                 rbtnD.Checked = false;
-
+                socau++;
             }
             else if (rbtncau2.Checked == true)
             {
@@ -310,6 +308,7 @@ namespace TestWindowsForm_VietNam
                 rbtnB.Checked = false;
                 rbtnC.Checked = false;
                 rbtnD.Checked = false;
+                socau++;
             }
             else if (rbtncau3.Checked == true)
             {
@@ -339,6 +338,7 @@ namespace TestWindowsForm_VietNam
                 rbtnB.Checked = false;
                 rbtnC.Checked = false;
                 rbtnD.Checked = false;
+                socau++;
             }
             else if (rbtncau4.Checked == true)
             {
@@ -369,6 +369,7 @@ namespace TestWindowsForm_VietNam
                 rbtnB.Checked = false;
                 rbtnC.Checked = false;
                 rbtnD.Checked = false;
+                socau++;
 
             }
             else if (rbtncau5.Checked == true)
@@ -399,7 +400,7 @@ namespace TestWindowsForm_VietNam
                 rbtnB.Checked = false;
                 rbtnC.Checked = false;
                 rbtnD.Checked = false;
-
+                socau++;
             }
             else if (rbtncau6.Checked == true)
             {
@@ -429,7 +430,7 @@ namespace TestWindowsForm_VietNam
                 rbtnB.Checked = false;
                 rbtnC.Checked = false;
                 rbtnD.Checked = false;
-
+                socau++;
             }
             else if (rbtncau7.Checked == true)
             {
@@ -459,7 +460,7 @@ namespace TestWindowsForm_VietNam
                 rbtnB.Checked = false;
                 rbtnC.Checked = false;
                 rbtnD.Checked = false;
-
+                socau++;
             }
             else if (rbtncau8.Checked == true)
             {
@@ -489,7 +490,7 @@ namespace TestWindowsForm_VietNam
                 rbtnB.Checked = false;
                 rbtnC.Checked = false;
                 rbtnD.Checked = false;
-
+                socau++;
             }
             else if (rbtncau9.Checked == true)
             {
@@ -519,7 +520,7 @@ namespace TestWindowsForm_VietNam
                 rbtnB.Checked = false;
                 rbtnC.Checked = false;
                 rbtnD.Checked = false;
-
+                socau++;
             }
             else if (rbtncau10.Checked == true)
             {
@@ -549,8 +550,181 @@ namespace TestWindowsForm_VietNam
                 rbtnB.Checked = false;
                 rbtnC.Checked = false;
                 rbtnD.Checked = false;
+                socau++;
+            }
+            else if (rbtncau11.Checked == true)
+            {
+                if (rbtnA.Checked == true)
+                {
+                    cautraloicau11 = "A";
+                }
+                else if (rbtnB.Checked == true)
+                {
+                    cautraloicau11 = "B";
+                }
+                else if (rbtnC.Checked == true)
+                {
+                    cautraloicau11 = "C";
+                }
+                else if (rbtnD.Checked == true)
+                {
+                    cautraloicau11 = "D";
+                }
+                rbtncau12.Checked = true;
+                lblCauhoi.Text = "Câu 12: Câu lệnh nào sau đây khi Form được hiện lên người dùng có thể focus vào các cửa sổ khác?\r\n";
+                rbtnA.Text = "A. frm.Activate();";
+                rbtnB.Text = "B. frm.DialogShow();";
+                rbtnC.Text = "C. frm.Show();";
+                rbtnD.Text = "D. frm.ShowDialog();";
+                rbtnA.Checked = false;
+                rbtnB.Checked = false;
+                rbtnC.Checked = false;
+                rbtnD.Checked = false;
+                socau++;
+            }
+            else if (rbtncau12.Checked == true)
+            {
+                if (rbtnA.Checked == true)
+                {
+                    cautraloicau12 = "A";
+                }
+                else if (rbtnB.Checked == true)
+                {
+                    cautraloicau12 = "B";
+                }
+                else if (rbtnC.Checked == true)
+                {
+                    cautraloicau12 = "C";
+                }
+                else if (rbtnD.Checked == true)
+                {
+                    cautraloicau12 = "D";
+                }
+                rbtncau13.Checked = true;
+                lblCauhoi.Text = "Câu 13: Thuộc tính nào sau đây có giá trị True cho phép hiển thị Icon và tiêu đề Form trên thanh Taskbar. False thì ngược lại?\r\n";
+                rbtnA.Text = "A. ControlBox";
+                rbtnB.Text = "B. ShowInTaskbar";
+                rbtnC.Text = "C. StartPosition";
+                rbtnD.Text = "D. WindowState";
+                rbtnA.Checked = false;
+                rbtnB.Checked = false;
+                rbtnC.Checked = false;
+                rbtnD.Checked = false;
+                socau++;
+            }
+            else if (rbtncau13.Checked == true)
+            {
+                if (rbtnA.Checked == true)
+                {
+                    cautraloicau13 = "A";
+                }
+                else if (rbtnB.Checked == true)
+                {
+                    cautraloicau13 = "B";
+                }
+                else if (rbtnC.Checked == true)
+                {
+                    cautraloicau13 = "C";
+                }
+                else if (rbtnD.Checked == true)
+                {
+                    cautraloicau13 = "D";
+                }
+                rbtncau14.Checked = true;
+                lblCauhoi.Text = "Câu 14: Thuộc tính nào sau đây có giá trị từ 0 đến 1.0 hoặc có đơn vị là %. Chỉ độ trong suốt của Form?\r\n";
+                rbtnA.Text = "A. Opacity";
+                rbtnB.Text = "B. ShowInTaskbar";
+                rbtnC.Text = "C. StartPosition";
+                rbtnD.Text = "D. WindowState";
+                rbtnA.Checked = false;
+                rbtnB.Checked = false;
+                rbtnC.Checked = false;
+                rbtnD.Checked = false;
+                socau++;
+            }
+            else if (rbtncau14.Checked == true)
+            {
+                if (rbtnA.Checked == true)
+                {
+                    cautraloicau14 = "A";
+                }
+                else if (rbtnB.Checked == true)
+                {
+                    cautraloicau14 = "B";
+                }
+                else if (rbtnC.Checked == true)
+                {
+                    cautraloicau14 = "C";
+                }
+                else if (rbtnD.Checked == true)
+                {
+                    cautraloicau14 = "D";
+                }
+                rbtncau15.Checked = true;
+                lblCauhoi.Text = "Câu 15: Làm thế nào để thiết lập một sự kiện (event) click cho một button trong C#?\r\n";
+                rbtnA.Text = "A. button1_Click(object sender, EventArgs e) {}";
+                rbtnB.Text = "B. button_Click(EventArgs e, object sender) {}";
+                rbtnC.Text = "C. clickButton(object sender, EventArgs e) {}";
+                rbtnD.Text = "D. button_click() {}";
+                rbtnA.Checked = false;
+                rbtnB.Checked = false;
+                rbtnC.Checked = false;
+                rbtnD.Checked = false;
+                socau++;
 
             }
+            else if (rbtncau15.Checked == true)
+            {
+                if (rbtnA.Checked == true)
+                {
+                    cautraloicau15 = "A";
+                }
+                else if (rbtnB.Checked == true)
+                {
+                    cautraloicau15 = "B";
+                }
+                else if (rbtnC.Checked == true)
+                {
+                    cautraloicau15 = "C";
+                }
+                else if (rbtnD.Checked == true)
+                {
+                    cautraloicau15 = "D";
+                }
+                rbtncau16.Checked = true;
+                lblCauhoi.Text = "Câu 16: Trong C#, làm thế nào để kiểm tra xem một checkbox có được chọn hay không?\r\n";
+                rbtnA.Text = "A. checkbox.isChecked";
+                rbtnB.Text = "B. checkbox.Checked";
+                rbtnC.Text = "C. checkbox.IsSelected";
+                rbtnD.Text = "D. checkbox.Selected";
+                rbtnA.Checked = false;
+                rbtnB.Checked = false;
+                rbtnC.Checked = false;
+                rbtnD.Checked = false;
+                socau++;
+            }
+        }
+
+
+
+
+        private void btnNopBai_Click(object sender, EventArgs e)
+        {
+            for (int i = 1; i <= socau; i++)
+            {
+                string cautraloicau = (string)this.GetType().GetField($"cautraloicau{i}", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance).GetValue(this);
+                string cautraloidungcau = (string)this.GetType().GetField($"cautraloidungcau{i}", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance).GetValue(this);
+                socaudalam++;
+                if (cautraloicau == cautraloidungcau)
+                {
+                    caudung++;
+                }
+                else
+                {
+                    causai++;
+                }
+            }
+            MessageBox.Show("Số câu đúng: " + caudung + "\nSố câu sai: " + causai + " Số câu đã làm: " + socaudalam);
         }
     }
 }
