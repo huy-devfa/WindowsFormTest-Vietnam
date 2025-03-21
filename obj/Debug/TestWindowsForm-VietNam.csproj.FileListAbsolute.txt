@@ -16,3 +16,4 @@ D:\HỌC CSHARP\LAPTRINHHUONGDOITUONG\TestWindowsForm-VietNam\obj\Debug\TestWind
 D:\HỌC CSHARP\LAPTRINHHUONGDOITUONG\TestWindowsForm-VietNam\obj\Debug\TestWindowsForm_VietNam.frmChuong6.resources
 D:\HỌC CSHARP\LAPTRINHHUONGDOITUONG\TestWindowsForm-VietNam\obj\Debug\TestWindowsForm_VietNam.frmChuong7.resources
 D:\HỌC CSHARP\LAPTRINHHUONGDOITUONG\TestWindowsForm-VietNam\obj\Debug\TestWindowsForm_VietNam.frmChuong8.resources
+D:\HỌC CSHARP\LAPTRINHHUONGDOITUONG\TestWindowsForm-VietNam\obj\Debug\TestWindowsForm_VietNam.frmKetquakiemtra.resources

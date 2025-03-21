@@ -38,7 +38,7 @@ namespace TestWindowsForm_VietNam
             rbtnD.Text = "D. System. Threading";
 
         }
-        int socaudalam = 0;
+        
         string cautraloicau1 = "";
         string cautraloicau2 = "";
         string cautraloicau3 = "";
@@ -300,10 +300,10 @@ namespace TestWindowsForm_VietNam
                 }
                 rbtncau3.Checked = true;
                 lblCauhoi.Text = "Câu 3 \r\nThành phần nào sau đây cung cấp môi trường thực thi chung cho các \n ngôn ngữ trên nền .NET Framework? \r\n ";
-                rbtnA.Text = "A. System. Data";
-                rbtnB.Text = "B. System. Drawing";
-                rbtnC.Text = "C. System. Xml";
-                rbtnD.Text = "D. System. Windows. Forms";
+                rbtnA.Text = "A. Framework Class Library (FCL)";
+                rbtnB.Text = "B. Microsoft Intermediate Language (MSIL)";
+                rbtnC.Text = "C. The Common Language Runtime (CLR) ";
+                rbtnD.Text = "D. Just In Time (JIT)s";
                 rbtnA.Checked = false;
                 rbtnB.Checked = false;
                 rbtnC.Checked = false;
@@ -706,10 +706,13 @@ namespace TestWindowsForm_VietNam
         }
 
 
-
+        int socaudalam = 0;
 
         private void btnNopBai_Click(object sender, EventArgs e)
         {
+            string ketqua = "";
+            int caudung = 0;
+            int causai = 0;
             for (int i = 1; i <= socau; i++)
             {
                 string cautraloicau = (string)this.GetType().GetField($"cautraloicau{i}", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance).GetValue(this);
@@ -717,14 +720,17 @@ namespace TestWindowsForm_VietNam
                 socaudalam++;
                 if (cautraloicau == cautraloidungcau)
                 {
+                    ketqua += i + "." + cautraloicau + " Đúng\r\n" ;
                     caudung++;
                 }
                 else
                 {
+                    ketqua += i + "." + cautraloicau + " Sai\r\n";
                     causai++;
                 }
             }
-            MessageBox.Show("Số câu đúng: " + caudung + "\nSố câu sai: " + causai + " Số câu đã làm: " + socaudalam);
+            Form frmketqua = new frmKetquakiemtra(ketqua,caudung,causai,socaudalam);
+            frmketqua.Show();
         }
     }
 }

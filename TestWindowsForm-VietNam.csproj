@@ -94,6 +94,12 @@
     <Compile Include="frmChuong8.Designer.cs">
       <DependentUpon>frmChuong8.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmKetquakiemtra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKetquakiemtra.Designer.cs">
+      <DependentUpon>frmKetquakiemtra.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmTestWindowsForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -125,6 +131,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmChuong8.resx">
       <DependentUpon>frmChuong8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKetquakiemtra.resx">
+      <DependentUpon>frmKetquakiemtra.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmTestWindowsForm.resx">
       <DependentUpon>frmTestWindowsForm.cs</DependentUpon>
