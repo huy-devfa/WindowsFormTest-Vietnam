@@ -109,6 +109,7 @@
             this.btnReset.TabIndex = 1;
             this.btnReset.Text = "Làm lại từ đầu";
             this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // btnNopBai
             // 

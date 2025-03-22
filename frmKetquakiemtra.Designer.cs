@@ -65,7 +65,7 @@
             // lblsocaudalam
             // 
             this.lblsocaudalam.AutoSize = true;
-            this.lblsocaudalam.Location = new System.Drawing.Point(478, 62);
+            this.lblsocaudalam.Location = new System.Drawing.Point(428, 57);
             this.lblsocaudalam.Name = "lblsocaudalam";
             this.lblsocaudalam.Size = new System.Drawing.Size(50, 16);
             this.lblsocaudalam.TabIndex = 3;
@@ -84,7 +84,7 @@
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.Name = "frmKetquakiemtra";
-            this.Text = "frmKetquakiemtra";
+            this.Text = "Kết quả";
             this.Load += new System.EventHandler(this.frmKetquakiemtra_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
